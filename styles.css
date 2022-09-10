@@ -5,6 +5,9 @@
     --color-second: hsl(37, 99%, 69%);
     --color-white: hsl(0, 0%, 100%);
     --navBar-color: rgba(89, 206, 143, 0.6);
+    --color-iconHtml: hsl(0, 85%, 41%);
+    --color-iconCss: hsl(230, 49%, 29%);
+    --color-iconJs: hsl(52, 100%, 50%);
     --zindex-navbar: 5000;
     --font-size: 16px;
     
@@ -141,6 +144,17 @@ a {
 color: var(--color-primary);    
 }
 
+.title-home {
+    display: flex;
+    flex-direction: column;  
+}
+
+.title-home span {
+    position: relative;
+    left: 100px;
+    font-family: fantasy;
+}
+
 .about {
     font-size: 1.5rem;
     padding: 1em;
@@ -154,10 +168,9 @@ color: var(--color-primary);
 
 
 .skillContentIcons {
-    
     box-sizing: border-box;
     margin: auto;
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,9 +180,7 @@ color: var(--color-primary);
 
 .skillIcon {
     
-   border: solid;
     
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +191,7 @@ color: var(--color-primary);
     margin: auto;
     display: block;
     font-size: 100px;
-    color: var(--color-primary);
+    
 }
 
 .title-skills {
@@ -189,6 +200,16 @@ color: var(--color-primary);
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.bxl-css3 {
+    color: var(--color-iconCss);
+}
+.bxl-html5 {
+    color: var(--color-iconHtml);
+}
+.bxl-javascript {
+    color: var(--color-iconJs);
 }
 
 .contact {
@@ -242,6 +263,7 @@ footer {
         
     }
 
+   
     ul {
         background-color: transparent;
         list-style: none;
@@ -252,7 +274,7 @@ footer {
         justify-content: flex-end;
         gap: 1rem;
         padding-right: 2rem;
-        
+       
         
        
     }
@@ -280,7 +302,7 @@ footer {
     }
     
     .skillContentIcons {
-    border: solid;
+        border: solid;
         box-sizing: border-box;
         margin: auto;
         height: 80%;
@@ -290,5 +312,10 @@ footer {
         align-items: center;
         gap: 5rem;
         padding: 1rem;
+    }
+
+    .skills {
+        height: 400px;
+        
     }
 }

@@ -1,10 +1,11 @@
 const iconMenu = document.querySelector('.bx-menu');
 const menu = document.querySelector('#deployMenu');
-const btnHome = document.querySelector(".btn-home");
-const btnAbout = document.querySelector(".btn-about");
-const btnSkills = document.querySelector(".btn-skills");
-const btnContact = document.querySelector(".btn-contact");
-const hiddenNav = document.querySelector('#hiddenNav')
+const btnHome = document.querySelector("#btn-home");
+const btnAbout = document.querySelector("#btn-about");
+const btnSkills = document.querySelector("#btn-skills");
+const btnContact = document.querySelector("#btn-contact");
+const hiddenNav = document.querySelector('#hiddenNav');
+const hiddenNavBar = document.querySelector('#hiddenNavBar')
 
 iconMenu.addEventListener('click', (e) => {
     menu.classList.toggle('deployMenu');
@@ -47,5 +48,7 @@ iconMenu.addEventListener('click', (e) => {
             hiddenNav.classList.remove('hiddenNav')
         }
     })
+
+ 
 
 
