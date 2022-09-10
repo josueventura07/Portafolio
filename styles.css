@@ -37,7 +37,7 @@ html {
 }
 
 .hiddenNav {
-    visibility: hidden;
+    background-color: transparent;
 }
 
 .navBar {
@@ -236,10 +236,12 @@ footer {
         z-index: var(--zindex-navbar);
         visibility: none;
     }
+
     .navBar {
         background-color: var(--color-white);
         
     }
+
     ul {
         background-color: transparent;
         list-style: none;
@@ -250,10 +252,12 @@ footer {
         justify-content: flex-end;
         gap: 1rem;
         padding-right: 2rem;
-        visibility: none;
+        
+        
        
     }
 
+ 
     li {
         padding-bottom: 0.3rem;
         width: 100px;

@@ -1,5 +1,5 @@
 const iconMenu = document.querySelector('.bx-menu');
-const menu = document.querySelector('.deployMenu');
+const menu = document.querySelector('#deployMenu');
 const btnHome = document.querySelector(".btn-home");
 const btnAbout = document.querySelector(".btn-about");
 const btnSkills = document.querySelector(".btn-skills");
