@@ -54,7 +54,7 @@ html {
     margin: auto;
     max-width: 1024px;
     height: 100%;
-    
+   
 }
 
 .bx-menu {
@@ -82,7 +82,7 @@ ul {
     gap: 1rem;
     font-size: 20px;
     margin-top: -50px;
-    visibility: none;
+    
 }
 
 li {
@@ -96,9 +96,6 @@ li {
     visibility: hidden;
 }
 
-.deployMenuSmall {
-    visibility: none;   
-}
 
 a {
     text-decoration: none;
@@ -162,7 +159,7 @@ color: var(--color-primary);
 
 .title-home span {
     position: relative;
-    left: 100px;
+    left: 50px;
     font-family: fantasy;
     
 }
@@ -272,6 +269,7 @@ footer {
     text-align: center;
 }
 
+
 @media (min-width: 700px) {
     .nav {
         background-color: var(--color-white);
@@ -289,7 +287,7 @@ footer {
         
     }
 
-   
+  
     ul {
         background-color: transparent;
         list-style: none;
@@ -303,6 +301,10 @@ footer {
         
         
        
+    }
+
+    .deployMenu {
+        visibility: visible;
     }
 
     li {

@@ -14,30 +14,22 @@ iconMenu.addEventListener('click', (e) => {
 
 
     btnHome.addEventListener('click', (e) => {
-        if(screen.width < 700) {
-            menu.classList.toggle('deployMenu');   
-        } 
+        menu.classList.toggle('deployMenu');
 
     });
     
     btnAbout.addEventListener('click', (e) => {
-        if(screen.width < 700) {
-            menu.classList.toggle('deployMenu');   
-        }
+        menu.classList.toggle('deployMenu');
 
     }); 
 
     btnSkills.addEventListener('click', (e) => {
-        if(screen.width < 700) {
-            menu.classList.toggle('deployMenu');   
-        }
+        menu.classList.toggle('deployMenu');
 
     }); 
 
     btnContact.addEventListener('click', (e) => {
-        if(screen.width < 700) {
-            menu.classList.toggle('deployMenu');   
-        }
+        menu.classList.toggle('deployMenu');
 
     }); 
 
@@ -51,6 +43,10 @@ iconMenu.addEventListener('click', (e) => {
             hiddenNav.classList.remove('hiddenNav')
         }
     })
+
+   
+
+
 
  
 
