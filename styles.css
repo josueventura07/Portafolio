@@ -168,7 +168,7 @@ color: var(--color-primary);
     font-size: 1.5rem;
     padding: 1em;
     text-align: justify;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .about p {
@@ -345,7 +345,7 @@ footer {
 
     .skills {
         height: 400px;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
       .box-input {
