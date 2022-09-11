@@ -5,7 +5,8 @@ const btnAbout = document.querySelector("#btn-about");
 const btnSkills = document.querySelector("#btn-skills");
 const btnContact = document.querySelector("#btn-contact");
 const hiddenNav = document.querySelector('#hiddenNav');
-const hiddenNavBar = document.querySelector('#hiddenNavBar')
+const hiddenNavBar = document.querySelector('#hiddenNavBar');
+
 
 iconMenu.addEventListener('click', (e) => {
     menu.classList.toggle('deployMenu');
@@ -13,32 +14,34 @@ iconMenu.addEventListener('click', (e) => {
 
 
     btnHome.addEventListener('click', (e) => {
-        if(e.target) {
+        if(screen.width < 700) {
             menu.classList.toggle('deployMenu');   
-        }
+        } 
 
-    })
+    });
     
     btnAbout.addEventListener('click', (e) => {
-        if(e.target) {
+        if(screen.width < 700) {
             menu.classList.toggle('deployMenu');   
         }
 
-    }) 
+    }); 
 
     btnSkills.addEventListener('click', (e) => {
-        if(e.target) {
+        if(screen.width < 700) {
             menu.classList.toggle('deployMenu');   
         }
 
-    }) 
+    }); 
 
     btnContact.addEventListener('click', (e) => {
-        if(e.target) {
+        if(screen.width < 700) {
             menu.classList.toggle('deployMenu');   
         }
 
-    }) 
+    }); 
+
+   
     
     window.addEventListener('scroll', () => {
         if(window.scrollY >= 50) {
